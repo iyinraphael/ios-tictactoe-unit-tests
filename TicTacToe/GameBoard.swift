@@ -28,7 +28,7 @@ struct GameBoard {
         }
     }
     
-    private enum Square: Equatable {
+    enum Square: Equatable {
         case filled(Mark)
         case empty
     }
